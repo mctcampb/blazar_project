@@ -1,0 +1,14 @@
+executable = example_bash.sh
+args = -c 8
+output = test.out
+error = test.err
+log = test.log
+
+request_memory = 20 GB 
+request_cpus = 8
+request_disk = 0.5 GB
+
++JobBatchName="marti"
++flavour="medium"
+
+queue
